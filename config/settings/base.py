@@ -76,12 +76,16 @@ DJANGO_APPS = [
     "django.contrib.admin",
     "django.forms",
 ]
+
+
 THIRD_PARTY_APPS = [
-    "crispy_forms",
-    "allauth",
-    "allauth.account",
-    "allauth.socialaccount",
+"crispy_forms",
+"allauth",
+"allauth.account",
+"allauth.socialaccount",
+"django_countries", # CountryField
 ]
+
 
 LOCAL_APPS = [
     "everycheese.users.apps.UsersConfig",
